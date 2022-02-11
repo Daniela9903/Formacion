@@ -10,7 +10,7 @@ let button = document.getElementById('button');
 //addEventListener
 button.addEventListener('click', function(){
   
-   var randomColor = colors[Math.floor(Math.random() * colors.length)]
+   let randomColor = colors[Math.floor(Math.random() * colors.length)]
 
    let container = document.getElementById('containerDatos');
 
