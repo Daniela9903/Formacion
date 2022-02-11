@@ -15,3 +15,16 @@ button.addEventListener('click', function(){
 
    containerDatos.style.background = randomColor;
 })
+
+
+
+
+let button2 = document.getElementById('boton2');
+
+button2.addEventListener('click', function(){
+   
+
+   let colorboton = document.getElementById('boton2');
+
+   boton2.style.background = "red";
+})
