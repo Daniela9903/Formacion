@@ -7,15 +7,15 @@
   }
 
   .body-1{
-      background-color: rgb(221, 21, 21);
+      background-color: #ed2655;
       
   }
 
 #containerDatos{
-   background-color: rgba(206, 206, 206, 0.404);
+   background-color: rgba(206, 206, 206, 0.301);
     width: 40%;
     border-radius: 5%;
-    box-shadow: 10px 5px 5px rgba(124, 121, 121, 0.233);
+    box-shadow: 10px 5px 5px rgba(114, 112, 112, 0.233);
 
 }
 
@@ -32,9 +32,26 @@ color: rgb(241, 244, 247);
     text-decoration: none;
 }
 
+.boton-calcular{
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    background: 0;
+    width: 240px;
+    border: 2px solid #e3e3e3;
+    padding: 20px 0;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    overflow: hidden;
+    
+}
+
 .inputNum{
-    background-color: #89a9b341;
-    height: 32px;
-    border-radius: 5%;
+    border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+    height: 75%;
 }
 
