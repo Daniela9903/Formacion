@@ -9,6 +9,7 @@ let button = document.getElementById('button');
 
 //addEventListener
 button.addEventListener('click', function(){
+  
    var randomColor = colors[Math.floor(Math.random() * colors.length)]
 
    let container = document.getElementById('containerDatos');
@@ -18,26 +19,29 @@ button.addEventListener('click', function(){
 
 
 
-
 let button2 = document.getElementById('boton2');
 
 button2.addEventListener('click', function(){
    
+   button2.disabled = true;
 
-   let colorboton = document.getElementById('boton2');
+   let colorboton = document.getElementById('boton3');
 
-   boton2.style.background = "#3fb3b3";
+   boton3.style.background = "#3fb3b3";
 })
+
+
 
 
 let button3 = document.getElementById('boton3');
 
+
 button3.addEventListener('click', function(){
-   
+   button3.disabled = true;
 
-   let colorboton2 = document.getElementById('boton3');
+   let colorboton2 = document.getElementById('boton4');
 
-   boton3.style.background = "#056997";
+   boton4.style.background = "#056997";
 })
 
 
@@ -46,8 +50,8 @@ let button4 = document.getElementById('boton4');
 
 button4.addEventListener('click', function(){
    
+   button4.disabled = true;
+   let colorboton3 = document.getElementById('boton2');
 
-   let colorboton3 = document.getElementById('boton4');
-
-   boton4.style.background = "#1e4a5f";
+   boton2.style.background = "#1e4a5f";
 })
