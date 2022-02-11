@@ -48,7 +48,46 @@ color: aliceblue;
     color: rgb(228, 225, 225);
 }
 
-.boton2{
-    background-color: aqua;
+#boton2{
+    background-color: rgb(44, 123, 160);
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    padding: 20px 0;
+    font-weight: 100;
+    line-height: 1;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+
+
+#boton3{
+    background-color: rgb(58, 156, 202);
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    padding: 20px 0;
+    font-weight: 100;
+    line-height: 1;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+
+#boton4{
+    background-color: rgb(97, 165, 197);
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    padding: 20px 0;
+    font-weight: 100;
+    line-height: 1;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: -15px;
 }
 
