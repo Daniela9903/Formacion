@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+#containerDatos{
+    background-color: #515f69bd;
+    border-radius: 2%;
+    width: 40%;
+    height: 10%;
+}
+
+h1{
+    color: #fdfeff;
+}
+
+.body-3{
+    background-color: #2c3338;
+}
+
+.body-2{
+    background-color: rgb(10, 115, 141);
+    
+}
+
+.card-img-top {
+    width: 5px;
+    height: 350px;
+}
+
+.labe-pres{
+    font-family: 'Bitter', serif;
+font-family: 'Exo', sans-serif;
+color: aliceblue;
+}
+
+.links{
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+    font-family: 'Exo', sans-serif;
+    color: rgb(175, 183, 189);
+}
+
+.links:hover{
+    color: rgb(228, 225, 225);
+}
+
+#boton2{
+    background-color: rgb(44, 123, 160);
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    padding: 20px 0;
+    font-weight: 100;
+    line-height: 1;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+
+
+#boton3{
+    background-color: rgb(58, 156, 202);
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    padding: 20px 0;
+    font-weight: 100;
+    line-height: 1;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+
+#boton4{
+    background-color: rgb(97, 165, 197);
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    padding: 20px 0;
+    font-weight: 100;
+    line-height: 1;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+
